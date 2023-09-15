@@ -1,0 +1,60 @@
+.bloc{
+margin: auto;
+width: 50%;
+background-image: url(https://www.vanetys.com/media/galerie-113/small/4298578fec87005c3ac07a1384c2268fw925h615.jpg);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section.annonces {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section.annonces h2 {
+    text-transform: uppercase;
+}
+
+section.annonces ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section.annonces ul li {
+    margin-bottom: 10px;
+}
